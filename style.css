@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0.25turn,rgb(89, 89, 212),rgb(214, 111, 126));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    min-width: 35vw;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 7px;
+    backdrop-filter: blur(30px);
+}
+input{
+    width: 78%;
+    padding: 15px 5px;
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    border-radius: 10px;
+    background-color: rgba(247, 240, 232, 0.514);
+}
+.add{
+    width: 70px;
+    padding: 12px 3px;
+    border: 1px solid rgba(8, 8, 8, 0.39);
+    border-radius: 13px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: rgba(66, 40, 216, 0.884);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.Alltasks{
+    background-color: #cfe4ee62;
+    padding: 10px 10px;
+    margin-top: 10px;
+    height: auto;
+    min-height: 50px;
+    border-radius: 8px;
+}
+h4{
+    margin-left: 33%;
+    margin-top: 40px;
+    text-decoration: underline;
+    color: #fff;
+    font-size: 18px;
+}
+
+.newTask{
+    margin-top: 10px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background-color:rgba(216, 198, 182, 0.808);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+
+}
+.delbtn{
+    padding: 7px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.897);
+    border-radius: 8px;
+    background-color: rgba(190, 52, 52, 0.829);
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
