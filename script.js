@@ -1,3 +1,5 @@
+//--------accessing elements-----
+
 let taskButton = document.querySelector("#addTask");
 let input = document.querySelector("#task");
 let inputValue = input.value;
